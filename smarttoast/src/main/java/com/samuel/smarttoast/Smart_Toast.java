@@ -127,7 +127,7 @@ public class Smart_Toast extends Toast {
                 ll.setRadius(0);
                 break;
             default:
-                ll.setRadius(100);
+                ll.setRadius(20);
                 break;
 
         }
@@ -142,14 +142,17 @@ public class Smart_Toast extends Toast {
         toastTextView.setTextColor(color);
     }
 
-    public void setTextStyle(int style) {
+       public void setTextStyle(int style) {
         switch (style) {
             case BOLD:
+                toastTextView.setTypeface(null, BOLD);
                 break;
             case ITALLIC:
+                toastTextView.setTypeface(null, ITALIC);
                 break;
         }
     }
+
 
     public void setTextSize(int textSize) {
         toastTextView.setTextSize(textSize);
