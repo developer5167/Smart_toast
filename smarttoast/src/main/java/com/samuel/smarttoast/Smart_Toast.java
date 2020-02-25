@@ -52,7 +52,7 @@ public class Smart_Toast extends Toast {
         appicon = layout.findViewById(R.id.appicon);
         toastImageView = layout.findViewById(R.id.toastImageView);
         ll = layout.findViewById(R.id.toast_layout_root);
-        toast = Toast.makeText(activity, this.message, Toast.LENGTH_SHORT);
+        toast = Toast.makeText(activity, this.message, Toast.LENGTH_LONG);
         toastTextView.setText(this.message);
     }
 
