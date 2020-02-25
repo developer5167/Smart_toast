@@ -127,7 +127,7 @@ public class Smart_Toast extends Toast {
                 ll.setRadius(0);
                 break;
             default:
-                ll.setRadius(20);
+                ll.setRadius(30);
                 break;
 
         }
